@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+###> doctrine/doctrine-bundle ###
+  database-api-p3:
+    ports:
+      - "54325:5432"
+###< doctrine/doctrine-bundle ###
